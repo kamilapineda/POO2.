@@ -147,12 +147,12 @@ public class Main {
                 break;
                 case 8: //Mostrar profesor
                 try{
-                    profesores.forEach((p)-> System.out.println("Id del profesor:" + p.getIdp()+ "Nombre del profesor:"+ p.getNombrep()+ "Apellido del profesor:"+ p.getApellidop()+ "Tipo de contrato:"+ p.getTipoContrato()));
+                    profesores.forEach((p)-> System.out.println("Id del profesor:" + p.getIdp()+ " Nombre del profesor:"+ p.getNombrep()+ " Apellido del profesor:"+ p.getApellidop()+ " Tipo de contrato:"+ p.getTipoContrato()));
                     break;
                 } catch (Exception e){}
                 case 9: //Mostrar materia
                 try{
-                    asignaturas.forEach((p) -> System.out.println("Nombre de la materia:"+ p.getNombrea()+"Nombre del estudiante:"+ p.getEstudiantea()+ "Nombre del profesor:"+ p.getProfesora()+ "Nota:"+ p.getNotaa()));
+                    asignaturas.forEach((p) -> System.out.println("Nombre de la materia:"+ p.getNombrea()+" Nombre del estudiante:"+ p.getEstudiantea()+ " Nombre del profesor:"+ p.getProfesora()+ " Nota:"+ p.getNotaa()));
                 break;
                 } catch(Exception e){}
             }  
