@@ -1,7 +1,6 @@
 package Actividades.Taller1;
 
 public class Estudiante {
-    private static int length;
     private Long id;
     private String nombre;
     private String apellido;
@@ -41,10 +40,6 @@ public class Estudiante {
     }
     public static void add(Estudiante est) {
     }
-    public static void exces(int id){
-        int i = 0;
-        while(i< Estudiante.length){
-            if (Estudiante[i] != texto.getId);
-        }
-    }
+    
+
 }
