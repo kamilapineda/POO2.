@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registro">
+  <grid id="27dc6" binding="pnlMain" layout-manager="GridLayoutManager" row-count="15" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="542" height="509"/>
+    </constraints>
+    <properties>
+      <background color="-11420490"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="43f8e" class="javax.swing.JLabel" binding="lblRegistro">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <foreground color="-16777216"/>
+          <text value="REGISTRO"/>
+        </properties>
+      </component>
+      <vspacer id="a3842">
+        <constraints>
+          <grid row="14" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4087d" class="javax.swing.JLabel" binding="lblVehiculo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Vehiculo"/>
+        </properties>
+      </component>
+      <component id="df9be" class="javax.swing.JRadioButton" binding="carroRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11420490"/>
+          <foreground color="-16777216"/>
+          <text value="Carro"/>
+        </properties>
+      </component>
+      <component id="b84de" class="javax.swing.JLabel" binding="lblMarca">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Marca"/>
+        </properties>
+      </component>
+      <component id="ecfdb" class="javax.swing.JTextField" binding="txtMarca">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="ed6b9" class="javax.swing.JLabel" binding="lblModelo">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Modelo"/>
+        </properties>
+      </component>
+      <component id="4f62e" class="javax.swing.JTextField" binding="txtModelo">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="c8d44" class="javax.swing.JLabel" binding="lblPlaca">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Placa"/>
+        </properties>
+      </component>
+      <component id="1f676" class="javax.swing.JTextField" binding="txtPlaca">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="f175e" class="javax.swing.JRadioButton" binding="motoRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11420490"/>
+          <foreground color="-16777216"/>
+          <text value="Moto"/>
+        </properties>
+      </component>
+      <component id="434db" class="javax.swing.JButton" binding="totalAPagarButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9867665"/>
+          <foreground color="-918273"/>
+          <text value="Total a pagar"/>
+        </properties>
+      </component>
+      <component id="de871" class="javax.swing.JLabel" binding="lblv2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11420490"/>
+          <foreground color="-11420490"/>
+          <text value="holiiiiiii"/>
+        </properties>
+      </component>
+      <component id="a0eed" class="javax.swing.JLabel" binding="lblv">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11420490"/>
+          <foreground color="-11420490"/>
+          <text value="holiiiii"/>
+        </properties>
+      </component>
+      <component id="9c80d" class="javax.swing.JLabel" binding="lblej">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="dd/MM/yyyy"/>
+        </properties>
+      </component>
+      <component id="45544" class="javax.swing.JLabel" binding="lblej1">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="dd/MM/yyyy"/>
+        </properties>
+      </component>
+      <component id="75a46" class="javax.swing.JLabel" binding="lbleje">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="HH:mm:ss"/>
+        </properties>
+      </component>
+      <component id="67683" class="javax.swing.JTextField" binding="txtFecha">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="5e990" class="javax.swing.JTextField" binding="txtHora">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="e3283" class="javax.swing.JTextField" binding="txtFecha1">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="b0681" class="javax.swing.JLabel" binding="lbleje1">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font/>
+          <foreground color="-16777216"/>
+          <text value="HH:mm:ss"/>
+        </properties>
+      </component>
+      <component id="95ffa" class="javax.swing.JTextField" binding="txtHora1">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="3fa96" class="javax.swing.JLabel" binding="lblFecha">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Fecha"/>
+        </properties>
+      </component>
+      <component id="b71c8" class="javax.swing.JLabel" binding="lblHora">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Hora"/>
+        </properties>
+      </component>
+      <component id="d1daa" class="javax.swing.JLabel" binding="lblFecha1">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Fecha"/>
+        </properties>
+      </component>
+      <component id="53c9f" class="javax.swing.JLabel" binding="lblHora1">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Hora"/>
+        </properties>
+      </component>
+      <component id="b98a" class="javax.swing.JLabel" binding="lblEntrada">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Entrada"/>
+        </properties>
+      </component>
+      <component id="c81e9" class="javax.swing.JLabel" binding="lblSalida">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Salida"/>
+        </properties>
+      </component>
+      <component id="ced6d" class="javax.swing.JTextField" binding="txtPrecio">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-918273"/>
+        </properties>
+      </component>
+      <component id="8f6a2" class="javax.swing.JLabel" binding="lblPrecio">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Precio por hora"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
